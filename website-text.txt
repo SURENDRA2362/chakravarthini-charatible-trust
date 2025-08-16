@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Webpage</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a modern look */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-purple-600 to-blue-500 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white p-8 md:p-12 rounded-xl shadow-2xl max-w-lg w-full text-center transform hover:scale-105 transition-transform duration-300 ease-in-out">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-6 leading-tight">
+            Welcome to My Site!
+            IT'S SURENDRA BALAJI
+        </h1>
+        <p class="text-lg md:text-xl text-gray-600 mb-8">
+            This is a simple, yet elegant webpage created with HTML and styled beautifully using Tailwind CSS. It's fully responsive and ready for the web!
+        </p>
+        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-opacity-75">
+            Learn More
+        </button>
+    </div>
+</body>
+</html>
